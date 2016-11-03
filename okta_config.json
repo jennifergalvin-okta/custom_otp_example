@@ -1,0 +1,8 @@
+{
+  "httpPort": "8081",
+  "listenOnHTTP": "true",
+  "httpsPort": "443",
+  "listenOnHTTPS": "false",
+  "sslKey": "/etc/pki/tls/private/server.key",
+  "sslCert": "/etc/pki/tls/certs/server.crt"
+}

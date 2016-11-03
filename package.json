@@ -1,0 +1,32 @@
+{
+  "name": "custom_otp_example",
+  "version": "1.0.0",
+  "description": "Web Server for Client OTP generator",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webserver.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jennifergalvin-okta/custom_otp_example.git"
+  },
+  "keywords": [
+    "okta",
+    "custom",
+    "otp",
+    "mfa"
+  ],
+  "author": "Jennifer Galvin",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/jennifergalvin-okta/custom_otp_example/issues"
+  },
+  "devDependencies": {
+    "https": "~1.0.0",
+    "http": "0.0.0",
+    "fs": "0.0.1-security",
+    "express": "~4.14.0"
+  }
+}

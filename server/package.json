@@ -1,0 +1,29 @@
+{
+  "name": "custom-otp-example-server",
+  "version": "1.0.0",
+  "description": "Serves up responses for custom OTP clients",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jennifergalvin-okta/custom_otp_example.git"
+  },
+  "keywords": [
+    "okta",
+    "custom",
+    "otp",
+    "mfa"
+  ],
+  "author": "Jennifer Galvin",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/jennifergalvin-okta/custom_otp_example/issues"
+  },
+  "devDependencies": {
+    "dgram": "1.0.1",
+    "radius": "1.1.3"
+  }
+}

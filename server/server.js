@@ -42,7 +42,7 @@ server.on("message", function (msg, rinfo) {
   code = 'Access-Reject';
   for (i = 0; i < itemList.length; i++)
   {
-    if (password == itemList[i].toLowerCase())
+    if (password.toLowerCase() == itemList[i].toLowerCase())
     { 
       code = 'Access-Accept'; 
       break;
