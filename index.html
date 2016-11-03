@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Pokemon Go OTP Generator</title>
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="jquery-script-center">
+<script type="text/javascript">
+
+  var itemList = ["Bulbasaur", "Ivysaur", "Venasaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", 
+  "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot", 
+  "Nidoran", "Nidoqueen", "Nidoking", "Clefairy", "Clefable", "Vulpix", "Ninetales", "Jigglypuff", "Wigglytuff", "Zubat", 
+  "Golbat", "Oddish", "Gloom", "Vileplume", "Paras", "Parasect", "Venonat", "Venomoth", "Diglett", "Dugtrio", "Meowth"];
+
+
+  var randomItem = Math.floor((Math.random() * (itemList.length - 1) ));
+
+  function showItem() 
+  {
+    document.write("<center>");
+    document.write("<h1>" + itemList[randomItem] + "</h1>");
+    document.write("<img src=\"images/" + itemList[randomItem].toLowerCase() + ".jpg\" height=\"400\"></img>");
+    document.write("</center>");
+  }
+  showItem();
+
+  function sleep(delay) 
+  {
+    var start = new Date().getTime();
+    while (new Date().getTime() < start + delay);
+  }
+
+  //sleep(1000 * 60);
+  //location.reload();
+
+
+</script>
+</div>
+
+
+
+</body>
+</html>
