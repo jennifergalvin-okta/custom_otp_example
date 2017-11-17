@@ -14,3 +14,5 @@ To install:  npm install
 To start:  npm start
 
 If you'd like to configure the port it listens on, edit server.js.
+
+I already have an example token generator at http://portal.galvin.ninja:8081, if you want to use the same dictionary and just implement the server.
